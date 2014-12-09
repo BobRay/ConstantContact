@@ -50,7 +50,7 @@ $contact = array(
     'WorkPhone' => $workPhone,
     );
 
-    $modx->invokeEvent('OnCustomerOrder', $contact);
+    $modx->invokeEvent('OnCustomerOrder', array('contact' => $contact));
 </fixedpre></pre>
 
 
