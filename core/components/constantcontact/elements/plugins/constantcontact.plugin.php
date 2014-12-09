@@ -54,7 +54,7 @@
         'StateCode'     => $stateCode,
         'CountryCode'   => $countryCode,
         'CountryName'   => $countryName,
-        'Addr1'         => '$addressOne,
+        'Addr1'         => $addressOne,
         'Addr2'         => $addressTwo,
         'Addr3'         => $addressThree,
         'PostalCode'    => $postalCode,
@@ -63,7 +63,7 @@
         'WorkPhone'     => $workPhone,
     );
 
-    $modx->invokeEvent('OnCustomerOrder', $contact);
+    $success = $modx->invokeEvent('OnCustomerOrder', array('contact' => $contact));
 
 More info here:
 
@@ -76,7 +76,7 @@ include $modx->getOption('cc.core_path', NULL, $modx->getOption('core_path') . '
 
 $config = $scriptProperties;
 
-$userName = $modx->getOption('ccUserName', $config, '');
+$userName = $modx->getOption('ccUsername', $config, '');
 
 if (empty($userName)) {
     $modx->log(modX::LOG_LEVEL_ERROR, '[ConstantContact] No UserName');

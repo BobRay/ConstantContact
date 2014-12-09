@@ -45,7 +45,7 @@ At the point where you confirm the user's purchase, add code like this using the
             'WorkPhone'     => $workPhone,        
         );
         
-        $modx->invokeEvent('OnCustomerOrder', $contact);
+        $success = $modx->invokeEvent('OnCustomerOrder', array('contact' => $contact));
 
 
 The plugin checks to make sure there is no user with that email address, then adds the user. Using the class that comes with the package, it's also possible to update or remove existing users, but the plugin itself will only add them.
