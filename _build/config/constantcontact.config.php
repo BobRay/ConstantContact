@@ -17,13 +17,13 @@ $components = array(
     'packageNameLower' => $packageNameLower,
     'packageDescription' => 'ConstantContact project for MyComponent extra',
     'version' => '1.0.0',
-    'release' => 'beta1',
+    'release' => 'pl',
     'author' => 'Bob Ray',
     'email' => '<http://bobsguides.com>',
     'authorUrl' => 'http://bobsguides.com',
     'authorSiteName' => "Bob's Guides",
     'packageDocumentationUrl' => 'http://bobsguides.com/constantcontact-tutorial.html',
-    'copyright' => '2014',
+    'copyright' => '2014-2015',
 
     /* no need to edit this except to change format */
     'createdon' => strftime('%m-%d-%Y'),

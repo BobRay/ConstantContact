@@ -2,7 +2,7 @@
 /**
  * events transport file for ConstantContact extra
  *
- * Copyright 2014 by Bob Ray <http://bobsguides.com>
+ * Copyright 2014-2015 by Bob Ray <http://bobsguides.com>
  * Created on 12-06-2014
  *
  * @package constantcontact
