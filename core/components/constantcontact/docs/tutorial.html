@@ -12,7 +12,49 @@ Revolution Repository (AKA Web Transport Facility). Put ConstantContact in the s
 
 <h3>Usage</h3>
 
+<p>You need a Constant Contact username and password. You don't need an API key. Set the username and password in the ccProperties property
+    set.</p>
 
+<p>At the point in your code where you want to add the contact, create an array of fields for the user and invoke the OnCustomerOrder
+    event.</p>
+
+<h3>Example</h3>
+
+<p>You want to add a user to your mailing list when he or she completes an eCommerce purchase.</p>
+
+<p>At the point where you confirm the user's purchase, add code like this using the information you have for the user:</p>
+
+<pre class="brush: php; toolbar: false;"><fixedpre>
+$contact = array(
+    /* Required */
+    'OptInSource' => 'ACTION_BY_CUSTOMER',
+    'Status' => 'ACTIVE',
+    'ContactList' => 1,
+    'Email' => $email,
+    'FirstName' => $firstName,
+    'LastName' => $lastName,
+    /* Optional */
+    'City' => $city,
+    'CompanyName' => $company,
+    'JobTitle' => $title,
+    'StateName' => $stateName,
+    'StateCode' => $stateCode,
+    'CountryCode' => $countryCode,
+    'CountryName' => $countryName,
+    'Addr1' => $addressOne,
+    'Addr2' => $addressTwo,
+    'Addr3' => $addressThree,
+    'PostalCode' => $postalCode,
+    'SubPostalCode' => $postalSubCode,
+    'HomePhone' => $homePhone,
+    'WorkPhone' => $workPhone,
+    );
+
+    $modx->invokeEvent('OnCustomerOrder', $contact);
+</fixedpre></pre>
+
+
+The plugin checks to make sure there is no user with that email address, then adds the user. Using the class that comes with the package, it's also possible to update or remove existing users, but the plugin itself will only add them.
 
 
 <a name="propertiesTable"></a>
