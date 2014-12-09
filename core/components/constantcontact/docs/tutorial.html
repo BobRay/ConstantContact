@@ -1,22 +1,17 @@
-<p>ConstantContact project for MyComponent extra</p>
-
-<p>(Jump to <a href="[[~[[*id]]]]#propertiesTable">Properties Table</a>.)</p>
+<p>ConstantContact is a plugin that adds contacts to an email list at <a href="constantcontact.com">Constant Contact</a> using the Constant Contact API V1.</p>
 
 <h3>Installing ConstantContact</h3>
 
 <p>
-Go to System | Package Management on the main menu in the MODX Manager and click on the &quot;Download Extras&quot; button. That will take you to the
-Revolution Repository (AKA Web Transport Facility). Put ConstantContact in the search box and press Enter. Click on the &quot;Download&quot; button, and once the package is downloaded,
- click on the &quot;Back to Package Manager&quot; button. That should bring you back to your Package Management grid. Click on the
-&quot;Install&quot; button next to ConstantContact in the grid. The ConstantContact package should now be installed.</p>
+Go to System | Package Management on the main menu in the MODX Manager and click on the &quot;Download Extras&quot; button. That will take you to the Revolution Repository. Put ConstantContact in the search box and press Enter. Click on the &quot;Download&quot; button, and once the package is downloaded,
+ click on the &quot;Back to Package Manager&quot; button. That should bring you back to your Package Management grid. Click on the &quot;Install&quot; button next to ConstantContact in the grid. The ConstantContact package should now be installed.</p>
 
 <h3>Usage</h3>
 
-<p>You need a Constant Contact username and password. You don't need an API key. Set the username and password in the ccProperties property
+<p>You need a Constant Contact username and password. You do not need an API key. Set the username and password in the ccProperties property
     set.</p>
 
-<p>At the point in your code where you want to add the contact, create an array of fields for the user and invoke the OnCustomerOrder
-    event.</p>
+<p>At the point in your code where you want to add the contact, create an array of fields for the user and invoke the OnCustomerOrder event.</p>
 
 <h3>Example</h3>
 
@@ -54,9 +49,7 @@ $contact = array(
 </fixedpre></pre>
 
 
-The plugin checks to make sure there is no user with that email address, then adds the user. Using the class that comes with the package, it's also possible to update or remove existing users, but the plugin itself will only add them.
+<p>The plugin checks to make sure there is no user with that email address, then adds the user. Using the class that comes with the package, it's also possible to update or remove existing users, but the plugin itself will only add them.</p>
 
+<p>&nbsp;</p>
 
-<a name="propertiesTable"></a>
-
-<h3>ConstantContact Properties</h3>
