@@ -2,7 +2,7 @@
 /**
  * Properties file for ccProperties propertyset
  *
- * Copyright 2014-2015 by Bob Ray <http://bobsguides.com>
+ * Copyright 2014-2017 by Bob Ray <https://bobsguides.com>
  * Created on 12-07-2014
  *
  * @package constantcontact

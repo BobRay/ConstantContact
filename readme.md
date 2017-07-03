@@ -1,8 +1,8 @@
-ConstantContact Extra for MODx Revolution
+ConstantContact Extra for MODX Revolution
 =======================================
 
 
-**Author:** Bob Ray [Bob's Guides](http://bobsguides.com)
+**Author:** Bob Ray [Bob's Guides](https://bobsguides.com)
 
 This package was made possible through the generous support of Fountainhead, LLC dba RS Design.
 

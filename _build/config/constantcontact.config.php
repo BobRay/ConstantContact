@@ -19,10 +19,10 @@ $components = array(
     'version' => '1.0.0',
     'release' => 'pl',
     'author' => 'Bob Ray',
-    'email' => '<http://bobsguides.com>',
-    'authorUrl' => 'http://bobsguides.com',
+    'email' => '<https://bobsguides.com>',
+    'authorUrl' => 'https://bobsguides.com',
     'authorSiteName' => "Bob's Guides",
-    'packageDocumentationUrl' => 'http://bobsguides.com/constantcontact-tutorial.html',
+    'packageDocumentationUrl' => 'https://bobsguides.com/constantcontact-tutorial.html',
     'copyright' => '2014-2015',
 
     /* no need to edit this except to change format */

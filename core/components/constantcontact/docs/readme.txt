@@ -2,14 +2,14 @@
 ConstantContact
 
 
-Author: Bob Ray <http://bobsguides.com>
-Copyright 2014
+Author: Bob Ray <https://bobsguides.com>
+Copyright 2014-2017
 
-Official Documentation: http://bobsguides.com/constantcontact-tutorial.html
+Official Documentation: https://bobsguides.com/constantcontact-tutorial.html
 
 Bugs and Feature Requests: https://github.com:BobRay/ConstantContact
 
-Questions: http://forums.modx.com
+Questions: https://forums.modx.com
 
 Created by MyComponent
 

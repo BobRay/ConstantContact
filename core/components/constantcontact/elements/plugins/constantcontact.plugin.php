@@ -2,7 +2,7 @@
 /**
  * ConstantContact plugin for ConstantContact extra
  *
- * Copyright 2014 by Bob Ray <http://bobsguides.com>
+ * Copyright 2014-2017 by Bob Ray <https://bobsguides.com>
  * Created on 12-06-2014
  *
  * ConstantContact is free software; you can redistribute it and/or modify it under the
@@ -123,7 +123,7 @@ $success = $cc->create_contact($email, $contact_list, $extra_fields);
 
 if ($success === false) {
     $modx->log(modX::LOG_LEVEL_ERROR, '[ConstantContact] Failed to add user: ' .
-        $contact['email']);
+        $contact['email'] . ' -- ' . $cc->last_error);
 }
 
 
