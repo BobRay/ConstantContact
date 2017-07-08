@@ -2,7 +2,7 @@
 /**
  * ConstantContact plugin for ConstantContact extra
  *
- * Copyright 2014-2017 by Bob Ray <https://bobsguides.com>
+ * Copyright 2014-2017 Bob Ray <https://bobsguides.com>
  * Created on 12-06-2014
  *
  * ConstantContact is free software; you can redistribute it and/or modify it under the

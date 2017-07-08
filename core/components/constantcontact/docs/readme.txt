@@ -3,7 +3,7 @@ ConstantContact
 
 
 Author: Bob Ray <https://bobsguides.com>
-Copyright 2014-2017
+Copyright 2014-2017 Bob Ray
 
 Official Documentation: https://bobsguides.com/constantcontact-tutorial.html
 
